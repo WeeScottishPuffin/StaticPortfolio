@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.dig
     pkgs.geckodriver
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
