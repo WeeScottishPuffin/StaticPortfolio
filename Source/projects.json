@@ -1,3 +1,4 @@
+data = `
 {
   "CRT":{
     "Name":"CRT Portfolio",
@@ -12,7 +13,7 @@
             ["image","img_saturated.png"],
             ["text","If you have any suggestions, improvements or question, feel free to message me on discord."]],
     "Cover":"cover_saturated.png",
-    "Links":[["The github page","https://github.com/WeeScottishPuffin/Saturated"],["Direct download","https://ScottishPuff.in/static/Downloads/Saturated.theme.css",true]]
+    "Links":[["The github page","https://github.com/WeeScottishPuffin/Saturated"],["Direct download","https://ScottishPuff.in/Source/Downloads/Saturated.theme.css",true]]
   },
   "FakeDiscordRpc":{
     "Name":"Fake Discord RPC",
@@ -20,7 +21,7 @@
             ["text","You will need python to run this program, which you can download from the link below."],
             ["image","cover_DRPC.png"]],
     "Cover":"cover_DRPC.png",
-    "Links":[["The github page","https://github.com/WeeScottishPuffin/Saturated"],["Download","https://ScottishPuff.in/static/Downloads/DRPC/main.py",true]]
+    "Links":[["The github page","https://github.com/WeeScottishPuffin/DRPC"],["Download","https://ScottishPuff.in/Source/Downloads/DRPC/main.py",true]]
   },
   "VibeBot":{
     "Name":"Vibe Bot",
@@ -45,3 +46,4 @@
   }
   
 }
+`;

@@ -3,24 +3,23 @@
 <head>
   <meta name="title" content="{{ project['Name'] }}  -  Scottishpuff.in">
   <meta name="description" content="{{ project['Desc'][0][1] }}">
-  <meta property="og:image" content="{{ url_for('static', filename='Images/%s'%(project['Cover'])) }}" />
+  <meta property="og:image" content="Source/Images/%s'%(project['Cover'])) }}" />
   <meta name="keywords" content="portfolio, projects, programming">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="English">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>{{ project['Name'] }}  -  ScottishPuffin</title>
-  <link rel="shortcut icon" href="{{ url_for('static', filename='Images/pfp(t).ico') }}">
-  <link href="{{ url_for('static', filename='main.css') }}" rel="stylesheet" type="text/css" />
-  <script src="{{ url_for('static', filename='Scripts/footer.js') }}"></script>
+  <title id="title"></title>
+  <link rel="shortcut icon" href="Source/Images/pfp(t).ico">
+  <link href="Source/main.css" rel="stylesheet" type="text/css" />
+  <script src="Source/projects.json" type="text/javascript"></script>
+  <script src="Source/Scripts/footer.js"></script>
   <script src="https://kit.fontawesome.com/2bfedb9754.js" crossorigin="anonymous"></script>
-  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1096566099062366"
-     crossorigin="anonymous"></script> -->
   </head>
   <body onload="footerChg()">
     <div class="header">
-      <img src="{{ url_for('static', filename='Images/pfp(t).ico') }}" alt="logo" href="window.location.href='/'">
+      <img src="Source/Images/pfp(t).ico" alt="logo" href="window.location.href='/'">
       <h2>ScottishPuffin</h2>
       <div class="socials">
         <i class="social fa-brands fa-discord" onclick="window.open('https://discordapp.com/users/1080953934920827000', '_blank');"></i>
@@ -29,41 +28,18 @@
     </div>
     <div class="content projectContent">
       <!-- <a href="/">«back</a> -->
-      <h1 class="title">{{ project['Name'] }}</h2>
+      <h1 class="title" id="titleH1"></h2>
       <hr>
-      {% for pg in project['Desc'] %}
-        {% if pg[0] == "text" %}
-          <p class="description">{{ pg[1] }}</p>
-        {% endif %}
-        {% if pg[0] == "image" %}
-          <img class="projectImage" alt="Main image for current project." src="{{ url_for('static', filename='Images/%s'%(pg[1])) }}" /> 
-        {% endif %}
-        {% if pg[0] == "header" %}
-          <br>
-          <h2 class="subtitle">{{ pg[1] }}</h2>
-        {% endif %}
-        {% if pg[0] == "hr" %}
-          <hr>
-        {% endif %}
-        {% if pg[0] == "li" %}
-          <ul>
-            {% for item in pg[1] %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      {% endfor %}
+      <div id="descc"></div>
       <br>
       <h2 class="subtitle">Links</h2>
-      <ul>
-        {% for link in project['Links'] %}
-          <li><a {% if link[2] %} download {% endif %}href="{{ link[1] }}" target="_blank">{{ link[0] }}</a></li>
-        {% endfor %}
+      <ul id="links">
         <li><a href="/">Back</a></li>
       </ul>
     </div>
     <div class="footer">
       <p id="footerText">COPYRIGHT <span class="year">2023</span> NAUT VAN DER WINDEN</p>
     </div>
+    <script src="Source/Scripts/generatePages.js" type="text/javascript"></script>
   </body>
 </html>
