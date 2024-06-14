@@ -5,7 +5,7 @@ data = `
     "Desc":[["text","A simple HTML/CSS/JS project, recreating a very basic CRT-ish look."],
             ["image","cover_crt.png"]],
     "Cover":"cover_crt.png",
-    "Links":[["The site","https://weescottishpuffin.github.io/CRT",""]]
+    "Links":[["The site","https://crt.scottishpuff.in",""]]
   },
   "Saturated":{
     "Name":"Saturated",
@@ -43,7 +43,18 @@ data = `
     "Desc":[["text","This was one of my first tries at making my portfolio website, but I wasn't happy with how it turned out. It is still online via github. Even though it turned out quite bad, it still was a learning experience. You can visit the site using the link below, or look at the code on my github."]],
     "Cover":"1600x900.png",
     "Links":[["The site","https://old.scottishpuff.in"]]
+  },
+  "IntEx":{
+    "Name":"Orient. Internship Exercises",
+    "Desc":[["text","Lipsum"]],
+    "Cover":"1600x900.png",
+    "Links":[["The site","https://archives.scottishpuff.in/"],["The github project","https://www.github.com/WeeScottishPuffin/Exercises-1"]]
+  },
+  "VESTI":{
+    "Name":"VESTI Parking CLI",
+    "Desc":[["text","Lipsum"]],
+    "Cover":"1600x900.png",
+    "Links":[["The site","https://weescottishpuffin.github.io/CRT"],["The github project","https://www.github.com/WeeScottishPuffin/Exercises-1"]]
   }
-  
 }
 `;
