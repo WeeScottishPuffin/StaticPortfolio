@@ -14,7 +14,7 @@ desc.forEach((obj) => {
   if (obj[0] == "text"){
     createElementFromHTML(`<p>${obj[1]}</p>`,"descc")
   } else if(obj[0] == "image"){
-    createElementFromHTML(`<img src='Source/Images/${obj[1]}'></img>`,"descc")
+    createElementFromHTML(`<img class='projectImage' src='Source/Images/${obj[1]}'></img>`,"descc")
   }
 })
 links = pdata["Links"]
