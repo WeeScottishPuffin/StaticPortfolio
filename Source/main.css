@@ -233,6 +233,16 @@ body{
   }
 }
 
+.linkContainer{
+  height: 30px;
+  width: 180px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 /*Fixed box sizing*/
 *{
   -webkit-box-sizing: border-box;

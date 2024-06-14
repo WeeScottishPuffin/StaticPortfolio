@@ -18,10 +18,16 @@ desc.forEach((obj) => {
   }
 })
 links = pdata["Links"]
-links.forEach((obj) => {
-  if(obj[2]){
-    createElementFromHTML(`<li><a href="${obj[1]}" download target="_blank">${obj[0]}</a></li>`,"links")
-  } else {
-    createElementFromHTML(`<li><a href="${obj[1]}" target="_blank">${obj[0]}</a></li>`,"links")
-  }
-})
+document.getElementById("linkContainer").style.width = (Object.keys(links).length+1) * 45 + "px"
+/*if (links["download"]) {
+  document.getElementById("dl-link").onclick = function(){window.open(links["download"])}
+  document.getElementById("dl-link").style.display = "block"
+}*/
+if (links["web"]) {
+  document.getElementById("we-link").onclick = function(){window.open(links["web"])}
+  document.getElementById("we-link").style.display = "block"
+}
+if (links["github"]) {
+  document.getElementById("gh-link").onclick = function(){window.open(links["github"])}
+  document.getElementById("gh-link").style.display = "block"
+}

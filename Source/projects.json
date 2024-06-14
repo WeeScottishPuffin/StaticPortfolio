@@ -5,7 +5,7 @@ data = `
     "Desc":[["text","A simple HTML/CSS/JS project, recreating a very basic CRT-ish look."],
             ["image","cover_crt.png"]],
     "Cover":"cover_crt.png",
-    "Links":[["The site","https://crt.scottishpuff.in",""]]
+    "Links":{"web":"https://crt.scottishpuff.in"}
   },
   "Saturated":{
     "Name":"Saturated",
@@ -13,15 +13,15 @@ data = `
             ["image","img_saturated.png"],
             ["text","If you have any suggestions, improvements or question, feel free to message me on discord."]],
     "Cover":"cover_saturated.png",
-    "Links":[["The github page","https://github.com/WeeScottishPuffin/Saturated"],["Direct download","https://ScottishPuff.in/Source/Downloads/Saturated.theme.css",true]]
+    "Links":{"github":"https://github.com/WeeScottishPuffin/Saturated"}
   },
   "FakeDiscordRpc":{
     "Name":"Fake Discord RPC",
     "Desc":[["text","This simple python program sets your discord 'Now playing' status to that of a custom (fake) game. Right now, it supports GTA 6 and the Elder Scrolls 6: Hammerfell. Both are unreleased games, so you can use this program to trick your friends."],
-            ["text","You will need python to run this program, which you can download from the link below."],
+            ["text","You will need python 3 to run this program."],
             ["image","cover_DRPC.png"]],
     "Cover":"cover_DRPC.png",
-    "Links":[["The github page","https://github.com/WeeScottishPuffin/DRPC"],["Download","https://ScottishPuff.in/Source/Downloads/DRPC/main.py",true]]
+    "Links":{"github":"https://github.com/WeeScottishPuffin/DRPC"}
   },
   "VibeBot":{
     "Name":"Vibe Bot",
@@ -36,25 +36,25 @@ data = `
     "Desc":[["text","This was a small project I used to work on with a friend of mine. This site is unfinished and not really polished at all. A lot of images are missing and the content is no longer relevant. Anyways, the site is still available via the link below."],
             ["image","img_SOSF.png"]],
     "Cover":"cover_SOSF.png",
-    "Links":[["The site","https://sosf.scottishpuff.in/"]]
+    "Links":{"web":"https://sosf.scottishpuff.in/"}
   },
   "OLD_Portfolio":{
     "Name":"Old Portfolio Website",
     "Desc":[["text","This was one of my first tries at making my portfolio website, but I wasn't happy with how it turned out. It is still online via github. Even though it turned out quite bad, it still was a learning experience. You can visit the site using the link below, or look at the code on my github."]],
     "Cover":"cover_old_portfolio.png",
-    "Links":[["The site","https://old.scottishpuff.in"]]
+    "Links":{"web":"https://old.scottishpuff.in"}
   },
   "IntEx":{
     "Name":"Orient. Internship Exercises",
     "Desc":[["text","Hosted on this website are my old projects for internships or school. Projects on this page are too small to deserve their own spot here and are grouped together there."]],
     "Cover":"1600x900.png",
-    "Links":[["The site","https://archives.scottishpuff.in/"],["The github project","https://www.github.com/WeeScottishPuffin/Exercises-1"]]
+    "Links":{"web":"https://archives.scottishpuff.in/","github":"https://www.github.com/WeeScottishPuffin/Exercises-1"}
   },
   "VESTI":{
     "Name":"VESTI Parking CLI",
-    "Desc":[["text","I made this project as a intake exercise for my MBO school. It is a simple CLI (?) to interact with a fictional set of parking garages and cars. It is written in python. The github repository is linked below."]],
+    "Desc":[["text","I made this project as a intake exercise for my MBO school. It is a simple CLI (?) to interact with a fictional set of parking garages and cars. It is written in python. The github repository is linked below."],["image","cover_vesti.png"]],
     "Cover":"cover_vesti.png",
-    "Links":[["The github project","https://www.github.com/WeeScottishPuffin/VESTI"]]
+    "Links":{"github":"https://www.github.com/WeeScottishPuffin/VESTI"}
   }
 }
 `;
