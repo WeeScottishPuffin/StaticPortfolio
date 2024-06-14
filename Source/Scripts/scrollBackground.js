@@ -1,4 +1,4 @@
-enableScrollObj = false;
+enableScrollObj = true;
 function scroll(obj,rate=10){
   obj.style.backgroundPositionX = "0px";
   return window.setInterval(function(){
