@@ -52,9 +52,9 @@ data = `
   },
   "VESTI":{
     "Name":"VESTI Parking CLI",
-    "Desc":[["text","Lipsum"]],
+    "Desc":[["text","I made this project as a intake exercise for my MBO school. It is a simple CLI (?) to interact with a fictional set of parking garages and cars. It is written in python. The github repository is linked below."]],
     "Cover":"cover_vesti.png",
-    "Links":[["The site","https://weescottishpuffin.github.io/CRT"],["The github project","https://www.github.com/WeeScottishPuffin/Exercises-1"]]
+    "Links":[["The github project","https://www.github.com/WeeScottishPuffin/VESTI"]]
   }
 }
 `;
