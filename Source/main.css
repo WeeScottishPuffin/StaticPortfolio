@@ -14,7 +14,6 @@
 
 @font-face {
   font-family:Cousine;
-  src:url(./Fonts/Cousine.ttf);
   font-display: swap;
 }
 body, html{
@@ -248,4 +247,35 @@ body{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+
+
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: -50%;
+  bottom: calc(-50% - 8px);
+  background-color: #030310;
+  font-family: Cousine;
+  width: max-content;
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+  -webkit-transition: opacity 0.75s ease-in-out;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+[data-tooltip]:hover:after {
+  opacity: 1;
+}
+
+div[data-tooltip]:after {
+  left: 5px!important;
 }
