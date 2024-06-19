@@ -16,6 +16,7 @@
   <script src="Source/projects.json" type="text/javascript"></script>
   <script src="Source/Scripts/footer.js"></script>
   <script src="Source/Scripts/scrollBackground.js"></script>
+  <script src="Source/Scripts/htext.js"></script>
   <script src="https://kit.fontawesome.com/2bfedb9754.js" crossorigin="anonymous"></script>
   <script>
     let enableHoverSound = false;
@@ -29,7 +30,7 @@
   <body onload="footerChg()">
   <div class="header">
     <img src="Source/Images/pfp(t).ico" alt="logo" onclick="window.location.href='/'">
-    <h2 onclick="window.location.href='/'">ScottishPuffin</h2>
+    <h2 id="title" onclick="window.location.href='/'">ScottishPuffin</h2>
     <div class="socials">
     <i class="social fa-brands fa-discord" onclick="window.open('https://discordapp.com/users/1080953934920827000', '_blank');"></i>
     <i class="social fa-brands fa-github" onclick="window.open('https://github.com/WeeScottishPuffin', '_blank');"></i>
@@ -51,6 +52,6 @@
     <p id="footerText">COPYRIGHT <span class="year">2024</span> NAUT VAN DER WINDEN</p>
   </div>
     <script src="Source/Scripts/generateIndex.js" type="text/javascript"></script>
-    <script>scroll(document.getElementById("notice"));</script>
+    <script>scroll(document.getElementById("notice"));effect(document.getElementById('title'),'ScottishPuffin',35)</script>
   </body>
 </html>
