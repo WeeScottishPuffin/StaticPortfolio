@@ -140,6 +140,11 @@ body{
   /* height: calc(84vw / calc(16 / 9)); */
 }
 
+.highlight{
+  color:var(--colour-link);
+  font-style: italic;
+}
+
 .project{
   width: 25%;
   height: calc(25vw * calc(9 / 16));
