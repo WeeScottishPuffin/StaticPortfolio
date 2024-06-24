@@ -7,6 +7,7 @@
   --colour-accent: #4F6FBF;
   --colour-accent2: #2F4F9F;
   --colour-link: #6F8FdF;
+  --colour-scrollbg:#797979;
 
   --notice-primary: var(--colour-accent2);
   --notice-stripes: var(--colour-accent);
@@ -26,7 +27,7 @@ body, html{
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--colour-tertiary);
+  background: var(--colour-scrollbg);
 }
 
 ::-webkit-scrollbar-thumb {
