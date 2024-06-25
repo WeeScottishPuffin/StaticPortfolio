@@ -3,7 +3,7 @@ data = `
   "CRT":{
     "Name":"CRT Portfolio",
     "Desc":[["text","A simple HTML/CSS/JS project, recreating a very basic CRT-ish look."],
-            ["image","cover_crt.png"]],
+            ["image","img_crt.png"]],
     "Cover":"cover_crt.png",
     "Links":{"web":"https://crt.scottishpuff.in"}
   },
@@ -40,13 +40,16 @@ data = `
   },
   "OLD_Portfolio":{
     "Name":"Old Portfolio Website",
-    "Desc":[["text","This was one of my first tries at making my portfolio website, but I wasn't happy with how it turned out. It is still online via github. Even though it turned out quite bad, it still was a learning experience. You can visit the site using the link below, or look at the code on my github."]],
+    "Desc":[["text","This was one of my first tries at making my portfolio website, but I wasn't happy with how it turned out. It is still online via github. Even though it turned out quite bad, it still was a learning experience. You can visit the site using the link below, or look at the code on my github."],
+            ["image","img_old_portfolio.png"]],
     "Cover":"cover_old_portfolio.png",
     "Links":{"web":"https://old.scottishpuff.in"}
   },
   "IntEx":{
     "Name":"School Projects Archive",
-    "Desc":[["text","Hosted on this website are my old projects for internships or school. Projects on this page are too small to deserve their own spot here and are grouped together there. I am also planning on remaking some exercises to see how I've improved."]],
+    "Desc":[["text","Hosted on this website are my old projects for internships or school. Projects on this page are too small to deserve their own spot here and are grouped together there. I am also planning on remaking some exercises to see how I've improved."],
+          ["image","img_archive.png"],
+          ["text","The first exercise they asked me to make was to recreate an image they provided in html/css/js. It was quite an easy exercise."]],
     "Cover":"cover_archive.png",
     "Links":{"web":"https://archives.scottishpuff.in/","github":"https://www.github.com/WeeScottishPuffin/Exercises-1"}
   },
