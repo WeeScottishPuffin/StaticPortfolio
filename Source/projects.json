@@ -46,10 +46,11 @@ data = `
     "Links":{"web":"https://old.scottishpuff.in"}
   },
   "IntEx":{
-    "Name":"School Projects Archive",
-    "Desc":[["text","Hosted on this website are my old projects for internships or school. Projects on this page are too small to deserve their own spot here and are grouped together there. I am also planning on remaking some exercises to see how I've improved."],
+    "Name":"Orient. Internship Exercises",
+    "Desc":[["text","In my second to last year of HAVO (highschool-ish?) I had to do an orientation internship. I had to make a few exercises for them, which are hosted on the website linked above, along with other small school projects."],
           ["image","img_archive.png"],
-          ["text","The first exercise they asked me to make was to recreate an image they provided in html/css/js. It was quite an easy exercise."]],
+          ["text","The first exercise of (above) they asked me to make was to recreate an image they provided in html/css/js. It was quite an easy exercise. I also had to recreate a webpage (non responsive), make a simple password generator, recreate a working elevator panel (html/css/js) and finally create a simple alarm webapp. Ultimately, the exercises were a good way to reinforce my knowledge of html/css/js and were not too challenging. Sadly, the internship only lasted three days, so there wasn't a lot of time to get to the harder exerrcises."],
+          ["text","I'm currently remaking some of the exercises to see how I have improved, and how I'll do without any time restrictions."]],
     "Cover":"cover_archive.png",
     "Links":{"web":"https://archives.scottishpuff.in/","github":"https://www.github.com/WeeScottishPuffin/Exercises-1"}
   },
