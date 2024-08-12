@@ -9,9 +9,8 @@ data = `
   },
   "Saturated":{
     "Name":"Saturated",
-    "Desc":[["text","A simple betterdiscord style, meant to make discord easier on the eye. It increases overall saturation giving tha app a blue-ish tint. It has not been approved by the betterdiscord mod team, so it is only available via my github."],
-            ["image","img_saturated.webp"],
-            ["text","If you have any suggestions, improvements or question, feel free to message me on discord."]],
+    "Desc":[["text","A simple betterdiscord style, meant to make discord easier on the eye. It increases overall saturation giving tha app a blue-ish tint. It has not been approved by the betterdiscord mod team, so it is only available via my github. It is quite simple and not really impressive. I am however working on more themes for applications like discord or vscode to improve."],
+            ["image","img_saturated.webp"]],
     "Cover":"cover_saturated.webp",
     "Links":{"github":"https://github.com/WeeScottishPuffin/Saturated"}
   },
