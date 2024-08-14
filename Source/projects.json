@@ -164,8 +164,16 @@ data = `
       ],
       [
         "text",
-        "I am still working on fixing some flaws with the theme, and am grateful for any feedback or suggestions (You can contact me via mail or discord)."
-      ]
+        "Below is a bit of nonsensical example code to show syntax highlighting and some more layout."
+      ],
+      [
+        "image",
+        "img_seafoam2.webp"
+      ],
+      [
+        "text",
+        "I am still working on fixing some flaws with the theme, and I am grateful for any feedback or suggestions (You can contact me via mail or discord). I also hope to adapt this theme for betterdiscord and other applications in the future."
+      ],
     ],
     "Cover": "cover_seafoam.webp",
     "Links": {
