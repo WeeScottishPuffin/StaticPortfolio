@@ -19,10 +19,10 @@ desc.forEach((obj) => {
 })
 links = pdata["Links"]
 document.getElementById("linkContainer").style.width = (Object.keys(links).length+1) * 45 + "px"
-/*if (links["download"]) {
+if (links["download"]) {
   document.getElementById("dl-link").onclick = function(){window.open(links["download"])}
   document.getElementById("dl-link").style.display = "block"
-}*/
+}
 if (links["web"]) {
   document.getElementById("we-link").onclick = function(){window.open(links["web"])}
   document.getElementById("we-link").style.display = "block"
