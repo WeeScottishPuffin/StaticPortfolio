@@ -5,7 +5,7 @@ data = `
     "Desc": [
       [
         "text",
-        "A simple HTML/CSS/JS project, recreating a very basic CRT-ish look."
+        "One of my earlier html/css/js projects. I liked the look of old crt-ish displays and wanted to recreate that effect. It has some simple commands, a very rudimentary 'filesystem' and a nice boot animation. Right now, it's pretty basic (and the code is one hell of a mess), but I'm considering remaking it later on."
       ],
       [
         "image",
@@ -22,7 +22,7 @@ data = `
     "Desc": [
       [
         "text",
-        "A simple betterdiscord style, meant to make discord easier on the eye. It increases overall saturation giving tha app a blue-ish tint. It has not been approved by the betterdiscord mod team, so it is only available via my github. It is quite simple and not really impressive. I am however working on more themes for applications like discord or vscode to improve."
+        "A simple betterdiscord style, meant to make discord easier on the eye. It increases overall saturation giving tha app a blue-ish tint. It has not been approved by the betterdiscord mod team, so it is only available via my github. It is quite simple and not really impressive. I am however working on more themes for applications like discord and vscode to improve."
       ],
       [
         "image",
@@ -60,7 +60,7 @@ data = `
     "Desc": [
       [
         "text",
-        "A simple discord bot, which keeps track of how much users swear. It is far from perfect, and is more a proof of concept. It also served as an introduction to the discord.py library."
+        "A simple discord bot, which keeps track of how much users swear. It is far from perfect, and is more of a proof of concept. It also served as my introduction to the discord.py library. I stopped working on the project because I am unable to maintain relevant infrstructure."
       ],
       [
         "image",
@@ -79,7 +79,7 @@ data = `
     "Desc": [
       [
         "text",
-        "This was a small project I used to work on with a friend of mine. This site is unfinished and not really polished at all. A lot of images are missing and the content is no longer relevant. Anyways, the site is still available via the link below."
+        "This was a small project I used to work on with a friend of mine. This site is unfinished and not really polished at all. A lot of images are missing and the content is no longer relevant. Anyways, the site is still available via the link below. In the end, it was a valuable learning experience."
       ],
       [
         "image",
@@ -96,7 +96,7 @@ data = `
     "Desc": [
       [
         "text",
-        "This was one of my first tries at making my portfolio website, but I wasn't happy with how it turned out. It is still online via github. Even though it turned out quite bad, it still was a learning experience. You can visit the site using the link below, or look at the code on my github."
+        "This was one of my first tries at making my portfolio website, but I wasn't happy with how it turned out. I experimented with a centered layout for the first time. Ultimately, I focussed too much on little details and lost sight of the bigger design. Even though it turned out quite bad, it still was a learning experience. I've decided to keep it online via github. You can visit the site using the link below, or look at the code on my github."
       ],
       [
         "image",
@@ -156,7 +156,7 @@ data = `
     "Desc": [
       [
         "text",
-        "My first attempt at making an theme for vscode. I based it on the 'Seafoam Pastel' terminal theme, which I found on windows terminal themes. The theme is dark and easy on the eyes. The colours are pastel-like, which gives the theme a very soft look. I recommend installing a sans-serif alongside it for an even cleaner look. Both the github and VS marketplace are linked below."
+        "My first attempt at making an theme for vscode. I based it on the 'Seafoam Pastel' terminal theme, which I found on windows terminal themes. The theme is dark and easy on the eyes. The colours are pastel-like, which gives the theme a very soft look. I recommend installing a sans-serif alongside it for an even cleaner look. Both the github and VS marketplace are linked above."
       ],
       [
         "image",
