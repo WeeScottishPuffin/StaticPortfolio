@@ -180,6 +180,19 @@ data = `
       "github": "https://www.github.com/WeeScottishPuffin/Seafoam",
       "download": "https://marketplace.visualstudio.com/items?itemName=ScottishPuffin.theme-sf"
     }
+  },
+  "MasterMind": {
+    "Name": "Master Mind",
+    "Desc": [
+      [
+        "text",
+        "My first project written in java. This is the first project I needed to make for my CS Course. I made this in my first week of having learned Java, so the code is not the cleanest. I have managed to split up the code across multiple files."
+      ]
+    ],
+    "Cover": "cover_mind.webp",
+    "Links": {
+      "github": "https://www.github.com/WeeScottishPuffin/Mastermind"
+    }
   }
 }
 `;
