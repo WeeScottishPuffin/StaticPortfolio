@@ -55,25 +55,6 @@ data = `
       "github": "https://github.com/WeeScottishPuffin/DRPC"
     }
   },
-  "VibeBot": {
-    "Name": "Vibe Bot",
-    "Desc": [
-      [
-        "text",
-        "A simple discord bot, which keeps track of how much users swear. It is far from perfect, and is more of a proof of concept. It also served as my introduction to the discord.py library. I stopped working on the project because I am unable to maintain relevant infrstructure."
-      ],
-      [
-        "image",
-        "img_vibebot.webp"
-      ],
-      [
-        "text",
-        "As of now, the source code is not available to download."
-      ]
-    ],
-    "Cover": "cover_vibebot.webp",
-    "Links": []
-  },
   "SOSF": {
     "Name": "SOSF Website",
     "Desc": [
@@ -186,7 +167,7 @@ data = `
     "Desc": [
       [
         "text",
-        "My first project written in java. This is the first project I needed to make for my CS Course. I made this in my first week of having learned Java, so the code is not the cleanest. I have managed to split up the code across multiple files."
+        "This is my first real project that I've written using Java and the first casus for my CS course. The objective was to simply recreate this elementary game, without many restrictions. This being my first experience with Java programming, the code may be a bit messy or unoptimised. However, I do still reckon that I've succeeded with programming the casus."
       ]
     ],
     "Cover": "cover_mind.webp",
