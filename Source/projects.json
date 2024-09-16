@@ -168,6 +168,10 @@ data = `
       [
         "text",
         "This is my first real project that I've written using Java and the first casus for my CS course. The objective was to simply recreate this elementary game, without many restrictions. This being my first experience with Java programming, the code may be a bit messy or unoptimised. However, I do still reckon that I've succeeded with programming the casus."
+      ],
+      [
+        "image",
+        "image_mind.webp"
       ]
     ],
     "Cover": "cover_mind.webp",
