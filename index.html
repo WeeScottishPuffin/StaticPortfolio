@@ -36,12 +36,19 @@
     <i class="social fa-brands fa-github" onclick="window.open('https://github.com/WeeScottishPuffin', '_blank');"></i>
     </div>
   </div>
+  <div class="notice" id="notice">
+    <h2>Notice</h2>
+    <p>This website is still under construction.</p>
+    <br>
+  </div>
+  <div style="" class="sortContainer">
+    <label for="sort" class="sortLabel">Sort projects:</label>
+    <select name="sort" id="sort" onchange="generateIndex()">
+      <option value="new">New First</option>
+      <option value="old">Old First</option>
+    </select>
+  </div>
   <div class="content projects" id="cp">
-    <div class="notice" id="notice">
-      <h2>Notice</h2>
-      <p>This website is still under construction.</p>
-      <br>
-    </div>
     <a class="project" id="project_about" href="/portfolio.html" onmouseenter="hover('audioz')">
       <audio id="audioz" src="Source/Audio/hover.mp3" preload="auto"></audio>
       <img alt="Cover image for project: Website" src="Source/Images/cover_website.webp"/>
