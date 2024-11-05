@@ -178,6 +178,23 @@ data = `
     "Links": {
       "github": "https://www.github.com/WeeScottishPuffin/Mastermind"
     }
+  },
+  "MasterMindCS": {
+    "Name": "Master Mind (C#)",
+    "Desc": [
+      [
+        "text",
+        "My first project in Java, rewritten in C#. Again it is quite a simple ascii game like MasterMind. This time there is also a precompiled release available on Github."
+      ],
+      [
+        "image",
+        "image_mind.webp"
+      ]
+    ],
+    "Cover": "cover_mind_cs.webp",
+    "Links": {
+      "github": "https://www.github.com/WeeScottishPuffin/Mastermind-CS"
+    }
   }
 }
 `;
