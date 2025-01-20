@@ -201,11 +201,15 @@ data = `
     "Desc": [
       [
         "text",
-        "A simple, somewhat messy python program to generate filler data for an microsoft access database I was using for a project. It exports data to a text file, which can easily be imported into the database itself. I plan on automating this further using the pyodbc module to access the database itself."
+        "A simple, somewhat messy python program to generate filler data for an microsoft access database I was using for a project. You are able to input parameters and limits for the generated data, which it exports to a text file. The file can easily be imported into the database itself. I am working on automating this further using the pyodbc module to access the database and write the generated data directly."
       ],
       [
         "image",
         "img_accessdb.webp"
+      ],
+      [
+        "text",
+        "A generated dataset"
       ]
     ],
     "Cover": "cover_accessdb.webp",
