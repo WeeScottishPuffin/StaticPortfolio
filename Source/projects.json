@@ -216,6 +216,19 @@ data = `
     "Links": {
       "github": "https://www.github.com/WeeScottishPuffin/AccessDBFiller"
     }
+  },
+  "ChromaPie": {
+    "Name": "ChromaPie",
+    "Desc": [
+      [
+        "text",
+        "A simple python module I wrote and published to familiarise myself with PyPI and Python packaging. You can easily colour text or apply other ansi styles. It can support for 8-bit colours and 8-bit RGB colours, depending on your terminal. You can also easily view an overview of available colours"
+      ]
+    ],
+    "Cover": "cover_chromapie.webp",
+    "Links": {
+      "github": "https://www.github.com/WeeScottishPuffin/ChromaPie"
+    }
   }
 }
 `;
