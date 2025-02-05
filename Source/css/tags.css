@@ -1,0 +1,33 @@
+.tag{
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 25px;
+    margin-right:5px;
+}
+
+.tag-HTML{
+    background-color: #e34c26;
+}
+
+.tag-JS{
+    background-color: #998a1a;
+}
+
+.tag-Java{
+    background-color: #e38e27;
+}
+
+.tag-C\#{
+    background-color: #c127e3;   
+}
+
+.tag-Python{
+    background-color: #278ee3;
+}
+
+.tag-Theme{
+    background-color: #22991a;
+}
+.tag-Package{
+    background-color: #e327da;
+}
