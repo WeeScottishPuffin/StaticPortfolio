@@ -25,7 +25,7 @@ function generateIndex(){
     project.remove();
   });
   for (const [key, value] of sorted_data) {
-    createElementFromHTML(`<a class="project" id="project_${key}" href="/project.html?p=${key}" onmouseenter="hover('audio${key}')"><audio id="audio${key}" src="Source/Audio/hover.mp3" preload="auto"></audio><img alt="Cover image for project: ${value["Name"]}" src="Source/Images/${value["Cover"]}"/><p>${value["Name"]}</p></a>`);
+    createElementFromHTML(`<a class="project" id="project_${key}" href="/project.html?p=${key}" onmouseenter="hover('audio${key}')"><audio id="audio${key}" src="Source/Audio/hover.wav" preload="auto"></audio><img alt="Cover image for project: ${value["Name"]}" src="Source/Images/${value["Cover"]}"/><p>${value["Name"]}</p></a>`);
   }
 
 }
