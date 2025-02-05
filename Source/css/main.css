@@ -161,7 +161,7 @@ a {
   width: 25%;
   height: calc(25vw * calc(9 / 16));
   margin: calc(25% / 8);
-  margin-bottom: max(calc(25% / 8), 16px);
+  margin-bottom: max(calc(25% / 8), 25px);
   border: 2px black solid;
   transition: transform 0.5s;
   text-decoration: none;
