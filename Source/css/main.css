@@ -277,6 +277,10 @@ a {
   margin-left:6.25%;
   font-weight:600;
 }
+.sub{
+  margin-bottom:5px;
+}
+
 /*Fixed box sizing*/
 * {
   -webkit-box-sizing: border-box;
