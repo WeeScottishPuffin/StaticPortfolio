@@ -55,23 +55,6 @@ data = `
       "github": "https://github.com/WeeScottishPuffin/DRPC"
     }
   },
-  "SOSF": {
-    "Name": "SOSF Website",
-    "Desc": [
-      [
-        "text",
-        "This was a small project I used to work on with a friend of mine. This site is unfinished and not really polished at all. A lot of images are missing and the content is no longer relevant. Anyways, the site is still available via the link below. In the end, it was a valuable learning experience."
-      ],
-      [
-        "image",
-        "img_SOSF.webp"
-      ]
-    ],
-    "Cover": "cover_SOSF.webp",
-    "Links": {
-      "web": "https://sosf.scottishpuff.in/"
-    }
-  },
   "OLD_Portfolio": {
     "Name": "Old Portfolio Website",
     "Desc": [
