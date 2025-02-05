@@ -3,6 +3,8 @@
     padding: 1px 5px;
     border-radius: 7px;
     margin-right:5px;
+    display: inline-block;
+    height: 25px;
 }
 
 .tag-HTML{
