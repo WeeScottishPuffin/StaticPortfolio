@@ -20,7 +20,7 @@ data = `
   },
   "Saturated": {
     "Name": "Saturated",
-    "Tags":["Theme"],
+    "Tags":["Theme","Discord"],
     "Desc": [
       [
         "text",
@@ -38,7 +38,7 @@ data = `
   },
   "FakeDiscordRpc": {
     "Name": "Fake Discord RPC",
-    "Tags":["Python"],
+    "Tags":["Python","Discord"],
     "Desc": [
       [
         "text",
@@ -123,7 +123,7 @@ data = `
   },
   "Seafoam": {
     "Name": "Seafoam",
-    "Tags":["Theme"],
+    "Tags":["Theme","VSCode"],
     "Desc": [
       [
         "text",
