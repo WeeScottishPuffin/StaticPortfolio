@@ -14,11 +14,6 @@
   --notice-stripes: var(--colour-accent);
 }
 
-@font-face {
-  font-family: Cousine;
-  font-display: swap;
-}
-
 body,
 html {
   margin: 0;
