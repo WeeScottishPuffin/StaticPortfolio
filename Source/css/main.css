@@ -14,6 +14,11 @@
   --notice-stripes: var(--colour-accent);
 }
 
+@keyframes test{
+  from{background-position-x:0px;}
+  to{background-position-x:56.57px;}
+}
+
 body,
 html {
   margin: 0;
@@ -205,6 +210,10 @@ a {
   background-size: 56.57px 56.57px;
   border: 2px dashed var(--notice-primary);
   text-align: center;
+  animation-name: test;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .year {
