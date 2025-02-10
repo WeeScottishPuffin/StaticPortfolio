@@ -18,17 +18,10 @@
   <script src="Source/Scripts/footer.js"></script>
   <script src="Source/Scripts/scrollBackground.js"></script>
   <script src="Source/Scripts/htext.js"></script>
+  <script src="Source/Scripts/hover.js"></script>
   <script src="https://kit.fontawesome.com/2bfedb9754.js" crossorigin="anonymous"></script>
-  <script>
-    let enableHoverSound = false;
-    function hover(x){
-      if (!enableHoverSound){return}
-      document.getElementById(x).volume = 0.2;
-      document.getElementById(x).play();
-    }
-  </script>
   </head>
-  <body onload="footerChg()">
+  <body>
   <div class="header">
     <img src="Source/Images/pfp(t).ico" alt="logo" onclick="window.location.href='/'">
     <h2 id="title" onclick="window.location.href='/'">ScottishPuffin</h2>
