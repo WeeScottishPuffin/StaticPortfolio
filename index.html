@@ -16,8 +16,9 @@
   <link href="Source/css/tags.css" rel="stylesheet" type="text/css" />
   <script src="Source/projects.json" type="text/javascript"></script>
   <script src="Source/Scripts/htext.js"></script>
-  <script src="Source/Scripts/hover.js"></script>
-  <script src="https://kit.fontawesome.com/2bfedb9754.js" crossorigin="anonymous"></script>
+  <script defer src="Source/Scripts/hover.js"></script>
+  <link rel="preload" href="https://kit.fontawesome.com">
+  <script defer src="https://kit.fontawesome.com/2bfedb9754.js" crossorigin="anonymous"></script>
   </head>
   <body>
   <div class="header">
@@ -50,7 +51,7 @@
   <div class="footer">
     <p id="footerText">COPYRIGHT <span class="year">2025</span> NAUT VAN DER WINDEN</p>
   </div>
-    <script src="Source/Scripts/generateIndex.js" type="text/javascript"></script>
-    <script>scroll(document.getElementById("notice"));effect(document.getElementById('title'),'ScottishPuffin',35)</script>
+    <script defer src="Source/Scripts/generateIndex.js" type="text/javascript"></script>
+    <script defer>scroll(document.getElementById("notice"));effect(document.getElementById('title'),'ScottishPuffin',35)</script>
   </body>
 </html>
