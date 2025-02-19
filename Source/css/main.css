@@ -54,7 +54,7 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   overflow-x: hidden;
   width: 100%;
-  border-bottom: solid 15px var(--colour-secondary);
+  /* border-bottom: solid 15px var(--colour-secondary); */
 }
 
 .header {
@@ -187,7 +187,7 @@ a {
   font-weight: 700;
   width: 100%;
   margin: 0;
-  background-color: var(--colour-secondary);
+  background-color: var(--colour-primary);
   overflow: hidden;
   display: flex;
   align-items: center;
