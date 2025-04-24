@@ -29,7 +29,7 @@ function generateIndex(){
     value["Tags"].forEach(element => {
       tags += `<span class=\"tag tag-${element}\">${element}</span>`
     });
-    createElementFromHTML(`<a class="project" id="project_${key}" href="/project.html?p=${key}" onmouseenter="hover('audio${key}')"><audio id="audio${key}" src="Source/Audio/hover.wav" preload="auto"></audio><img alt="Cover image for project: ${value["Name"]}" src="Source/Images/${value["Cover"]}"/><p>${value["Name"]} ${tags}</p></a>`);
+    createElementFromHTML(`<a class="project" id="project_${key}" href="/project.html?p=${key}" onmouseenter="hover('audio${key}')"><audio id="audio${key}" src="Source/Audio/hover.wav" preload="auto"></audio><img alt="Cover image for project: ${value["Name"]}" loading="lazy" src="Source/Images/${value["Cover"]}"/><p>${value["Name"]} ${tags}</p></a>`);
   }
 
 }
